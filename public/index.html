@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Text to Speech Converter</h1>
+    <div class="voiceSelection">
+        <label for="voice_select">Voice: </label>
+        <select id="voice_select">
+            <option value="nova">Nova</option>
+            <option value="shimmer">Shimmer</option>
+            <option value="echo">Echo</option>
+            <option value="onyx">Onyx</option>
+            <option value="fable">Fable</option>
+            <option value="alloy">Alloy</option>
+        </select>
+    </div>
+
+    <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+    <button id="convertButton">Convert to Speech</button>
+    <audio id="audioPlayer" controls hidden></audio> <!-- Added an audio element to play the speech -->
+    <a id="downloadLink" href="#" hidden>Download Speech File</a> <!-- Link for downloading the file -->
+</div>
+
+<script src="mainScript.js"></script>
+</body>
+</html>
