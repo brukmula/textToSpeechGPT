@@ -24,7 +24,7 @@ git clone https://github.com/brukmula/textToSpeechGPT
 2. Navigate to the project directory
 
 ```terminal
-cd multipleAPI
+cd textToSpeechGPT
 ```
 
 3. Install the Dependencies
