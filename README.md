@@ -109,7 +109,7 @@ This will launch the app onto your local device at the address: http://localhost
 ---
 - ### Download Audio File
   Once the file is loaded, you can download the generated audio file by clicking on the 
-  'Download' button. 
+  'Convert To Speech' button. 
 
 
 ## Citations
