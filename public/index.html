@@ -24,8 +24,11 @@
 
     <textarea id="textInput" placeholder="Enter your text here..."></textarea>
     <button id="convertButton">Convert to Speech</button>
-    <audio id="audioPlayer" controls hidden></audio> <!-- Added an audio element to play the speech -->
-    <a id="downloadLink" href="#" hidden>Download Speech File</a> <!-- Link for downloading the file -->
+    <div id="spinner" hidden>
+        <p class="loadingText">Loading....</p>
+    </div>
+    <audio id="audioPlayer" controls hidden></audio>
+    <div id="filenameDisplay" class="fileName" hidden></div>
 </div>
 
 <script src="mainScript.js"></script>

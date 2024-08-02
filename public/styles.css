@@ -18,18 +18,18 @@ audio {
 }
 
 #downloadLink {
-    display: block; /* Ensures the link appears on a new line */
-    margin-top: 20px; /* Space above the download link */
+    display: block;
+    margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007bff; /* Green background for visibility */
-    color: #ffffff; /* White text for contrast */
-    text-decoration: none; /* Removes underline from the link */
-    border-radius: 4px; /* Rounded corners for the link */
-    font-size: 16px; /* Matches button font size */
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
 #downloadLink:hover {
-    background-color: #007bff; /* Darker green on hover for feedback */
+    background-color: #007bff;
 }
 
 
@@ -75,6 +75,11 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.loadingText, .fileName {
+    padding: 10px;
+    text-align: center;
 }
 
 #audioContainer {
